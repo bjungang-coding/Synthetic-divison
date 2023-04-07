@@ -1,5 +1,5 @@
 N = int(input())
-L = [int(input()) for i in N + 1]
+L = map(int, input().split(" "))
 
 index = 0
 result = []
