@@ -13,5 +13,5 @@ for l in L:
     index += 1
 
 remainder = result.pop(-1)
-print(x for x in result)
+print([x for x in result])
 print(remainder)
