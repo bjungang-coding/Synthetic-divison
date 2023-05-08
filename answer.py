@@ -1,5 +1,5 @@
 N = int(input())
-L = map(int, input().split(" "))
+L = map(int, input().split())
 X = int(input())
 
 index = 0
