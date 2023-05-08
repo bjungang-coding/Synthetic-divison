@@ -12,6 +12,6 @@ for l in L:
         result.append(result[index-1]*X + l)
     index += 1
 
-remainder = result.pop(-1)
+remainder = result.pop()
 print(result)
 print(remainder)
